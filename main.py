@@ -43,6 +43,7 @@ class SearchResult(BaseModel):
     doc: str
     score: float
     snippet: str
+    file_download_url: str
 
 # Load and preprocess documents on startup
 @app.on_event("startup")
@@ -90,9 +91,10 @@ def search_docs(request: QueryRequest):
         results.append(SearchResult(
             doc=doc_names[idx],
             score=round(float(score), 4),
-            snippet=snippet
+            snippet=snippet,
+            file_download_url=f"/download/{doc_names[idx]}"
         ))
-    
+
     return results
 
 @app.get("/download/{filename}")
