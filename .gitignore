@@ -49,12 +49,6 @@ coverage.xml
 # VS Code
 .vscode/
 
-# PyCharm
-.idea/
-
-# Jupyter Notebooks
-.ipynb_checkpoints/
-
 # Environment variables
 .env
 .env.*
