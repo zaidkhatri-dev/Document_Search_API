@@ -49,12 +49,6 @@ coverage.xml
 # VS Code
 .vscode/
 
-# PyCharm
-.idea/
-
-# Jupyter Notebooks
-.ipynb_checkpoints/
-
 # Environment variables
 .env
 .env.*
@@ -62,6 +56,7 @@ coverage.xml
 # Build / packaging
 build/
 dist/
+docs/
 *.egg-info/
 .eggs/
 *.egg
