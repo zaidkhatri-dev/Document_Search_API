@@ -3,7 +3,7 @@
 
 A scalable and modular RESTful API built with **FastAPI** for performing intelligent search over `.pdf` and `.docx` documents. It extracts, indexes, and retrieves list of most relevant documents using BM25 algorithm.
 
-
+<br>
 ## 🚀 Features
 
 - 🔍 Information retrival using BM25 ranking algorithm.  
@@ -13,7 +13,7 @@ A scalable and modular RESTful API built with **FastAPI** for performing intelli
 - ⚡ FastAPI backend with clean, modular architecture.
 - 📥 Download of documents supported.
 
-
+<br>
 ## ⚙️ Installation and Setup
 
 ### 1. Clone the repository
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 uvicorn app:app --reload
 ```
 
-
+<br>
 ## 📥 API Endpoints
 
 | Method              | Endpoint | Description |
@@ -52,25 +52,25 @@ uvicorn app:app --reload
 | Get        |   /search   | Returns list of relevant documents |
 | Get           |   /download/{filename}  | Returns file mentioned in 'filename' |
 
-
+<br>
 ## 🧠 How it works 
 
 
-
+<br>
 ## 📌 Technologies Used
 
 - FastAPI - for building the RESTful API.
 - PyMuPDF / python-docx - for extracting text from documents.
 -  spaCy - for NLP preprocessing.
 
-
+<br>
 ## 📄 License
 
 This project is open-source and available under the MIT License.
 
-
+<br>
 ## 📬 Contact
 
 Zaid Khatri
-[Linkedin](https://www.linkedin.com/in/zaid-khatri-dev/)
+[Linkedin](https://www.linkedin.com/in/zaid-khatri-dev/)<br>
 [E-mail](zaidkhatri.work@gmail.com)
