@@ -56,7 +56,6 @@ coverage.xml
 # Build / packaging
 build/
 dist/
-docs/
 *.egg-info/
 .eggs/
 *.egg
