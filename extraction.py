@@ -1,5 +1,5 @@
 from pathlib import Path
-import fitz 
+import pymupdf 
 from docx import Document
 
 def extract_text(path: Path) -> str:
@@ -15,7 +15,7 @@ def extract_text(path: Path) -> str:
         raise ValueError(f"Unsupported file format: {path.name}")
 
 def extract_pdf(path: Path) -> str:
-    with fitz.open(str(path)) as doc:
+    with pymupdf.open(str(path)) as doc:
         return "".join(page.get_text() for page in doc)
 
 def extract_word(path: Path) -> str:
