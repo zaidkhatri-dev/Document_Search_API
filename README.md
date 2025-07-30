@@ -78,4 +78,4 @@ This project is open-source and available under the MIT License.
 
 ## 📬 Contact
 
-Feel free to contact on [linkedin](https://www.linkedin.com/in/zaid-khatri-dev/) or email on (zaidkhatri.work@gmail.com)[zaidkhatri.work@gmail.com] 
+Feel free to contact on [linkedin](https://www.linkedin.com/in/zaid-khatri-dev/) or email on zaidkhatri.work@gmail.com 
