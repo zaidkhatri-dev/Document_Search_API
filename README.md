@@ -53,7 +53,7 @@ uvicorn app:app --reload
 | Method              | Endpoint | Description |
 | :----------------: | :------: | :----: |
 | Get        |   /search   | Returns list of relevant documents |
-| Get           |   /download/{filename}  | Returns file mentioned in 'filename' |
+| Get           |   /download/{filename}  | Returns file mentioned as path variable |
 
 <br>
 
@@ -78,4 +78,4 @@ This project is open-source and available under the MIT License.
 
 ## 📬 Contact
 
-Feel free to contact on [linkedin](https://www.linkedin.com/in/zaid-khatri-dev/) or email on zaidkhatri.work@gmail.com 
+Feel free to contact on [linkedin](https://www.linkedin.com/in/zaid-khatri-dev/) or email at zaidkhatri.work@gmail.com 
