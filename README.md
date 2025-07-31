@@ -58,9 +58,10 @@ uvicorn app:app --reload
 <br>
 
 ## 🧠 How it works 
+<img width="1653" height="608" alt="flowchart" src="https://github.com/user-attachments/assets/dffbf197-2e5d-4af9-9f60-2549ad614833" />
 
 
-<br>
+<br><br>
 
 ## 📌 Technologies Used
 
